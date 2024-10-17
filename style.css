@@ -5,6 +5,31 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.homeTitle{
+    position: relative;
+    display: flex;
+    margin-top: 25vh;
+    color: #cc5720;
+    font-size: 4em;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.homeBooksIcon{
+    font-size: 5em;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+/* .homeLogo{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+} */
+
 body{
     display: flex;
     flex-direction: column;
@@ -14,8 +39,23 @@ body{
 }
 
 .appTitle{
+    display: none;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-family: monospace;
+    /* background-color: hsla(39, 88%, 83%, 0.918); */
+    color: hsla(30, 73%, 46%, 0.589);
+    border-radius: 10px;
+    /* text-decoration: underline; */
+}
+
+.booksIcon{
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.courseLabel{
+    font-family: monospace;
 }
 
 /* .pageHeader{
@@ -41,10 +81,14 @@ body{
 }
 
 .dropdown button{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     background-color: aquamarine;
     height: 30px;
-    width: 75px;
+    font-weight: bold;
+    width: auto;
+    min-width: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -53,13 +97,14 @@ body{
     display: block;
     text-decoration: none;
     padding: 10px 15px;
+    color: black;
 }
 
 .dropdown .selections{
     display: none;
     /* z-index: 50; */
     position: absolute;
-    background-color: orange;
+    background-color: hsl(203, 98%, 70%);
     min-width: 150px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.80);
@@ -74,10 +119,13 @@ body{
 }
 
 .dropdown a:hover{
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(203, 98%, 80%);
 }
 
 .subContainer{
+    margin-top: 15px;
+    background-color: #27374D;
+    color: white;
     border: 4px solid black;
     border-radius: 10px;
     width: 500px;
@@ -86,12 +134,16 @@ body{
 }
 
 .contentDisplay{
+    background-color: #526D82;
     margin: auto;
+    font-size: 1.05em;
     text-align: center;
     border: 1px solid black;
     border-radius: 4px;
     width: 400px;
     height: 175px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .buttonRow{
@@ -102,8 +154,16 @@ body{
 }
 
 .showButton{
+    background-color: #00818A;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
     height: 30px;
-    width: 150px;
+    width: 170px;
     border-radius: 10px;
+    cursor: pointer;
+}
 
+.showButton:hover{
+    background-color: hsl(184, 100%, 37%) ;
 }
