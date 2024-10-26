@@ -159,10 +159,12 @@ body{
 }
 
 .contentDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #526D82;
     margin: auto;
     font-size: 1.05em;
-    text-align: center;
     border: 1px solid black;
     border-radius: 4px;
     width: 400px;
