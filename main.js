@@ -12,29 +12,31 @@ const civQuesBank = [
 ]
 
 civQuesBankLength = civQuesBank.length
-// console.log(civQuesBankLength);
+    // console.log(civQuesBankLength);
 
-let randomCivNum = Math.floor(Math.random() * civQuesBankLength);
-console.log(randomCivNum);
+    let randomCivNum = Math.floor(Math.random() * civQuesBankLength);
+    console.log(randomCivNum);
 
-let randomCivQA = civQuesBank[randomCivNum];
-console.log(randomCivQA);
+    let randomCivQA = civQuesBank[randomCivNum];
+    console.log(randomCivQA);
 
-let randomCivQues = randomCivQA[0, 0];
-console.log(randomCivQues);
+    let randomCivQues = randomCivQA[0, 0];
+    console.log(randomCivQues);
 
-let randomCivAns = randomCivQA[0, 1];
-console.log(randomCivAns);
+    let randomCivAns = randomCivQA[0, 1];
+    console.log(randomCivAns);
+    
 
 
 function flashCivQues(){
     // console.log("you clicked the question button");
-    questionDisplay.innerText = randomCivQues;
-
+    questionContent = randomCivQues;
+    questionDisplay.innerText = questionContent;
     
 }
 
 function flashCivAns(){
     // console.log("you clicked the answer button");
-    answerDisplay.innerText = randomCivAns;
+    answerContent = randomCivAns;
+    answerDisplay.innerText = answerContent;
 }
