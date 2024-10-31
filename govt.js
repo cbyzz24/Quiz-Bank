@@ -4,12 +4,28 @@ const govtQuesBtn = document.getElementById("govtQuesBtn");
 const govtAnsBtn = document.getElementById("govtAnsBtn");
 
 const govtQuesBank = [
-    ["Question 1", "Answer 1"],
-    ["Question 2", "Answer 2"],
-    ["Question 3", "Answer 3"],
-    ["Question 4", "Answer 4"],
-    ["Question 5", "Answer 5"],
-]
+    ["What are the two major political parties in the United States?", "The Democratic Party and the Republican Party"],
+    ["What is the primary responsibility of the Legislative Branch?", "To create and pass laws"],
+    ["Who is the Speaker of the House?", "The elected leader of the U.S. House of Representatives"],
+    ["How often are U.S. presidential elections held?", "Every four years"],
+    ["What is the purpose of the U.S. Senate?", "To represent the states and vote on legislation"],
+    ["Who has the power to veto a bill passed by Congress?", "The President"],
+    ["How many justices typically serve on the U.S. Supreme Court?", "Nine justices"],
+    ["What is a filibuster?", "A tactic used in the Senate to delay or block a vote on a bill"],
+    ["How many electoral votes are needed to win the U.S. presidency?", "270 electoral votes"],
+    ["What is the minimum age requirement to run for President of the United States?", "35 years old"],
+    ["Who becomes President if both the President and Vice President can no longer serve?", "The Speaker of the House"],
+    ["What is the term length for a U.S. Representative?", "2 years"],
+    ["What is the term length for a U.S. Supreme Court Justice?", "Lifetime appointment, unless they resign, retire, or are removed"],
+    ["What does the Secretary of State do?", "Handles foreign affairs and relations for the U.S."],
+    ["What is the purpose of a political primary election?", "To choose a party's candidate for the general election"],
+    ["Who appoints U.S. Supreme Court Justices?", "The President, with confirmation by the Senate"],
+    ["What is the role of the Vice President in the Senate?", "To serve as the President of the Senate and cast tie-breaking votes"],
+    ["What does the Federal Reserve do?", "Regulates the U.S. monetary system and controls interest rates"],
+    ["Who represents a U.S. state in the Senate?", "Two Senators per state"],
+    ["What is a swing state?", "A state where both major political parties have similar levels of support, making it key in elections"]
+];
+
 
 
 function flashGovtQues(){
