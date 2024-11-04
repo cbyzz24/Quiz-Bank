@@ -7,19 +7,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        
+        <span class="navBookIcon">📚</span>
+        <ul class="sidebar">
+            <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#223d77"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="civics.html">Civics</a></li>
+            <li><a href="govt.html">Govt & Politics</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="spanish.html">Spanish</a></li>
+        </ul>
+        <ul>
+            <!-- <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="civics.html">Civics</a></li>
+            <li class="hideOnMobile"><a href="govt.html">Govt & Politics</a></li>
+            <li class="hideOnMobile"><a href="history.html">History</a></li>
+            <li class="hideOnMobile"><a href="spanish.html">Spanish</a></li> -->
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#223d77"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
     <div id="mainWrapper">
         <h1 class="appTitle">Quiz Bank</h1>
-        <div class="booksIcon">📚</div>
+        <!-- <div class="booksIcon">📚</div> -->
         <!-- <h2 class="courseLabel">Govt & Politics</h2> -->
         
         <div class="dropdown">
             <button class="menu" id="courses">Govt & Politics</button>
-            <div class="selections">
+            <!-- <div class="selections">
                 <a href="index.html">Home</a>
                 <a href="civics.html">Civics</a>
                 <a href="history.html">History</a>
                 <a href="spanish.html">Spanish</a>
-            </div>
+            </div> -->
         </div>
         <div class="subContainer" id="questionContainer">
             <h3>Question</h3>
